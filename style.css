@@ -49,7 +49,7 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
-  font-size: 3.15vw;
+  font-size: 1.35vw;
 }
 video {
   height: 100%;
@@ -84,9 +84,9 @@ video {
   content: "BRIDEL.LAHANGE.IN.RENT";
   position: absolute;
   color: #000;
-  top: -3px;
+  top: -5px;
   left: -5px;
-  -webkit-text-stroke: 1.0px red;
+  -webkit-text-stroke: 1px red;
   z-index: -1;
 }
 #page1 h2 {
@@ -96,7 +96,7 @@ video {
   margin-bottom: 20px;
 }
 #page1 p {
-  font-size: 2.2vw;
+  font-size: 1.2vw;
   font-weight: 500;
   width: 40%;
 }
@@ -263,7 +263,6 @@ video {
   width: 14%;
 }
 
-
 #page4 {
   height: 10vh;
   width: 100%;
@@ -272,7 +271,6 @@ video {
   justify-content: center;
   gap: 20px;
   position: relative;
- 
 }
 .elem {
   height: 70%;
@@ -374,18 +372,18 @@ video {
 .stylish-button:hover {
   background-color: orangered;
 }
-.discraption{
+.discraption {
   margin-top: 110%;
 }
-.collection{
+.collection {
   max-width: 100%;
   height: auto;
 }
 #footer {
   height: 20vh;
   width: 100%;
-  background: linear-gradient(to left bottom,black,black);
-  
+  background: linear-gradient(to left bottom, black, black);
+
   position: relative;
   display: flex;
   align-items: center;
@@ -440,10 +438,10 @@ video {
 }
 
 @media screen and (max-width: 767px) {
- 
-.discraption{
-  margin-top: 115px;
-}
-
-
+  .discraption {
+    margin-top: 115px;
+  }
+  #nav h4 {
+    font-size: small;
+  }
 }
